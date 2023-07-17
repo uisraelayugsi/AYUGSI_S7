@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AYUGSI_S7.Vistas.Registro">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text=" REGISTRO"  FontSize=" 24" HorizontalTextAlignment="Center" />
+
+                <Entry x:Name="txtNombre"  Placeholder="nombre " />
+                <Entry x:Name="txtUsusario"  Placeholder="usuario"  />
+                <Entry x:Name="txtContraseña"  Placeholder="contraseña"  />
+
+                <Button x:Name="btnIngresar" Text="inicio" Clicked="btnIngresar_Clicked" />
+
+          
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
